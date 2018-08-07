@@ -7,6 +7,7 @@ set(SOURCES_
     gpu_compute_device.cpp 
     gpu_media_device.cpp 
     platform_memory.cpp 
+    interface.cpp
  )
 
 set(HEADERS_
@@ -14,6 +15,7 @@ set(HEADERS_
     gpu_compute_device.h 
     gpu_media_device.h 
     platform_memory.h 
+    interface.h
 )
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
