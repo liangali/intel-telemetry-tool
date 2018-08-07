@@ -1,3 +1,4 @@
+#pragma once
 
 class gpu_media_device
 {

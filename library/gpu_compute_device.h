@@ -1,3 +1,4 @@
+#pragma once
 
 class gpu_compute_device
 {
