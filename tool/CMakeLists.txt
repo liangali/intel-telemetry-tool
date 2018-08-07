@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 project( telemetry )
 
 include_directories ("${PROJECT_SOURCE_DIR}/../library")
-link_directories("${PROJECT_SOURCE_DIR}/../build_lib")
+link_directories("${PROJECT_SOURCE_DIR}/../build/lib")
 
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
 
